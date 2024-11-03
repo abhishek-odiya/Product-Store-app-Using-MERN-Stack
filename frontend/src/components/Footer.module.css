@@ -1,0 +1,7 @@
+.foot {
+    height: 45px;
+    box-shadow: 20px 20px 20px 15px rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+
+}
