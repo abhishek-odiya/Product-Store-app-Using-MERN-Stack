@@ -1,4 +1,4 @@
-<h1 align="center">Product Store</h1>
+<h1 align="center">Product Store App</h1>
 
 About This Project:
 
