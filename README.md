@@ -21,21 +21,24 @@ npm run start
 ```
 
 
-Start From => " npm run build " 
+## Error Handling 
+ For those who are getting this error "NODE_ENV" is not recognized as an internal or external command, operable command or batch file.
 
-then => " npm run start "
 
+## Installation
 
-For those who are getting this error
-"NODE_ENV" is not recognized as an internal or external command, operable command or batch file.
+Install
 
-install this  - " npm install cross-env --save-dev "  
+```bash
+  npm install cross-env --save-dev
+```
 
-then add " cross-env " before both -  
+then add " cross-env " before both in package.json
 
-"scripts": {
-  "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
-  "start": "cross-env NODE_ENV=production node backend/server.js"
-}
+```javascript
+"scripts": 
+  { "dev": "cross-env NODE_ENV=development nodemon backend/server.js", 
+  "start": "cross-env NODE_ENV=production node backend/server.js" }
+```
 
-then " npm run start  "
+Then Start the app
