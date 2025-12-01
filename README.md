@@ -105,7 +105,7 @@ PORT=5000
 ## 🚀 Deployment
 
 - **Frontend:** Render
-- **Backend:** Render / Railway / AWS
+- **Backend:** Render 
 - **Database:** MongoDB Atlas
 
 ## 📌 Author
