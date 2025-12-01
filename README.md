@@ -1,7 +1,6 @@
 # 🛒 Product Store App
 
-A full-stack CRUD application for managing products, built using **React.js, Node.js, Express.js, MongoDB, and Chakra UI**.  
-The application features a clean UI, fully functional REST API, product image support, and production-ready architecture.
+Product Store is a fully functional CRUD application that lets users manage products effortlessly. You can add new products, view product details, update information, and delete items. The app features a clean and responsive interface with real-time error handling, image uploads, and a seamless user experience. Perfect for demonstrating full-stack functionality in a live, deployable project.
 
 ---
 
