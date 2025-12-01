@@ -62,7 +62,7 @@ Product Store is a fully functional CRUD application that lets users manage prod
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/abhishek-odiya/Product-Store-App.git
+git clone https://github.com/abhishek-odiya/Product-Store-app-Using-MERN-Stack.git
 cd Product-Store-App
 ```
 
