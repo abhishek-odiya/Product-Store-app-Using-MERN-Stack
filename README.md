@@ -1,23 +1,108 @@
 <h1 align="center">Product Store App</h1>
 
-About This Project:
+# 🛒 Product Store App
 
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Chakra UI
--   🔥 Build an API
--   📱 Responsive UI With React.js and ChakraUI
--   🐞 Error Handling
--   🌐 Deployment
+A full-stack CRUD application for managing products, built using **React.js, Node.js, Express.js, MongoDB, and Chakra UI**.  
+The application features a clean UI, fully functional REST API, product image support, and production-ready architecture.
 
-### Run this app locally
+---
 
-```shell
-npm run build
-```
+## 🚀 Features
 
-### Start the app
+- ➕ Create new products  
+- 📄 Fetch & display all products  
+- ✏️ Update product details  
+- ❌ Delete products  
+- 🖼️ Image upload support  
+- ⚡ Fully functional REST API (Express.js)  
+- 📱 Responsive UI with Chakra UI  
+- 🐞 Frontend & backend error handling  
+- 🌐 Deployment-ready setup  
 
-```shell
-npm run start
-```
+---
 
-Then Start the app
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React.js  
+- Chakra UI  
+- Axios  
+- React Router  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- Mongoose  
+
+### **Database**
+- MongoDB Atlas  
+
+---
+
+## 📂 Folder Structure
+
+/client
+/src
+/components
+/pages
+/services
+/utils
+App.jsx
+
+/server
+/controllers
+/models
+/routes
+/middleware
+server.js
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/abhishek-odiya/Product-Store-App.git
+cd Product-Store-App
+2️⃣ Setup Backend
+bash
+Copy code
+cd backend
+npm install
+npm run dev
+3️⃣ Setup Frontend
+bash
+Copy code
+cd frontend
+npm install
+npm run dev
+🔐 Environment Variables (/server/.env)
+ini
+Copy code
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+📡 API Endpoints
+Base URL: /api/products
+
+Method	Endpoint	Description
+GET	/	Get all products
+GET	/:id	Get product by ID
+POST	/	Create a new product
+PUT	/:id	Update a product
+DELETE	/:id	Delete a product
+
+🚀 Deployment
+Frontend: Render
+
+Backend: Render / Railway / AWS
+
+Database: MongoDB Atlas
+
+📌 Author
+Abhishek Odiya
+GitHub: github.com/abhishek-odiya
+LinkedIn: linkedin.com/in/abhishek-odiya-84b502272
